@@ -10,7 +10,7 @@ function HomePage() {
   return (
     <div className="App">
       <div className="container">
-        
+        <h1>Hola Mundo</h1>
       </div>
     </div>
   );
