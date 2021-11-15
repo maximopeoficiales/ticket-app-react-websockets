@@ -15,6 +15,7 @@ import {
 import Enter from "../pages/Enter/Enter";
 import Queue from "../pages/Queue/Queue";
 import CreateTicket from "../pages/CreateTicket/CreateTicket";
+import Desktop from "../pages/Desktop/Desktop";
 
 const { Sider, Content } = Layout;
 
@@ -49,6 +50,7 @@ export const RouterPage = () => {
               <Route path="/enter" element={<Enter />} />
               <Route path="/queue" element={<Queue />} />
               <Route path="/create-ticket" element={<CreateTicket />} />
+              <Route path="/desktop" element={<Desktop />} />
               <Route path="*" element={<Navigate to="/enter" />} />
             </Routes>
           </Content>
