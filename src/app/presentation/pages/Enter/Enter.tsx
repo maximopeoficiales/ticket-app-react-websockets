@@ -1,8 +1,4 @@
-interface MyProps {}
-const defaultProps = {};
-const Enter = (props: MyProps) => {
-  props = { ...defaultProps, ...props };
-  const {} = props;
+const Enter = () => {
   return (
     <div data-testid="Enter" className="">
       <h1>Enter component</h1>
